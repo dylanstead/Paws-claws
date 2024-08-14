@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - Paws and Claws</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html">
+                        <img src="images/logo.jpg" alt="Paws and Claws Logo" class="logo">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> <span>Call us: (+44) 0800 456-7890</span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="dogs.html">Our Dogs</a></li>
+                            <li><a href="adoption.html">Adoption Process</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="donate-section">
+            <div class="container">
+                <h1>Support Our Cause</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Why Donate?</h2>
+                        <p>Your generous donations help us provide shelter, food, medical care, and love to dogs in need. Every contribution, no matter how small, makes a difference in the lives of these animals.</p>
+                        <h3>Your donation helps us:</h3>
+                        <ul>
+                            <li>Provide medical care and vaccinations</li>
+                            <li>Feed and house rescued dogs</li>
+                            <li>Support our spay/neuter program</li>
+                            <li>Fund our adoption and education programs</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Make a Donation</h2>
+                        <form id="donationForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount">Donation Amount</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">$</span>
+                                    </div>
+                                    <input type="number" class="form-control" id="amount" min="1" step="1" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="frequency">Donation Frequency</label>
+                                <select class="form-control" id="frequency" required>
+                                    <option value="one-time">One-time donation</option>
+                                    <option value="monthly">Monthly donation</option>
+                                    <option value="annually">Annual donation</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message (Optional)</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Donate Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Paws and Claws</h3>
+                    <p>123 Rescue Lane<br>London, Victoria Street w13 8N2</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>Phone: (+44) 0800 456-7890<br>Email: info@pawsandclaws.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; 2024 Paws & Claws. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
