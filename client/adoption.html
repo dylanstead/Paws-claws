@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption Process - Paws and Claws</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html">
+                        <img src="images/logo.jpg" alt="Paws and Claws Logo" class="logo">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> <span>Call us: (+44) 0800 456-7890</span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="dogs.html">Our Dogs</a></li>
+                            <li><a href="adoption.html">Adoption Process</a></li>
+                            <li><a href="donate.html">Donate</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="adoption-process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Our Adoption Procedure</h2>
+                        <ol>
+                            <li>Browse our available dogs and find your perfect match.</li>
+                            <li>Fill out the adoption application form below.</li>
+                            <li>Our team will review your application and contact you within 2-3 business days.</li>
+                            <li>If approved, we'll schedule a meet-and-greet with your chosen dog.</li>
+                            <li>If it's a good fit, you can finalize the adoption and take your new friend home!</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Adoption Application Form</h2>
+                        <form id="adoptionForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Home Address</label>
+                                <input type="text" class="form-control" id="address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="housing">Housing Type</label>
+                                <select class="form-control" id="housing" required>
+                                    <option value="">Select...</option>
+                                    <option value="house">House</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="condo">Condo</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="experience">Previous Pet Experience</label>
+                                <textarea class="form-control" id="experience" rows="3" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="reason">Why do you want to adopt a dog?</label>
+                                <textarea class="form-control" id="reason" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Paws and Claws</h3>
+                    <p>123 Rescue Lane<br>Dogtown, CA 90210</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>Phone: (123) 456-7890<br>Email: info@pawsandclaws.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">&copy; 2024 Paws & Claws. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
