@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Dogs - Paws and Claws</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/logo.jpg" alt="Paws and Claws Logo" class="logo">
+                </div>
+                <div class="col-md-9">
+                    <div class="contact-info">
+                        <i class="fas fa-phone"></i> <span>Call us: (+44) 0800 456-7890</span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="adoption.html">Adoption Process</a></li>
+                            <li><a href="donate.html">Donate</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="our-dogs">
+            <div class="container">
+                <h1>Our Dogs</h1>
+                <div class="row">
+                    <!-- Dog 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb" class="card-img-top" alt="Buddy">
+                            <div class="card-body">
+                                <h5 class="card-title">Buddy</h5>
+                                <p class="card-text">Labrador Retriever, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal1">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2" class="card-img-top" alt="Luna">
+                            <div class="card-body">
+                                <h5 class="card-title">Luna</h5>
+                                <p class="card-text">German Shepherd, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal2">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" class="card-img-top" alt="Max">
+                            <div class="card-body">
+                                <h5 class="card-title">Max</h5>
+                                <p class="card-text">Golden Retriever, 5 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal3">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8" class="card-img-top" alt="Bella">
+                            <div class="card-body">
+                                <h5 class="card-title">Bella</h5>
+                                <p class="card-text">Beagle, 1 year old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal4">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6" class="card-img-top" alt="Charlie">
+                            <div class="card-body">
+                                <h5 class="card-title">Charlie</h5>
+                                <p class="card-text">Poodle, 4 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal5">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48" class="card-img-top" alt="Rocky">
+                            <div class="card-body">
+                                <h5 class="card-title">Rocky</h5>
+                                <p class="card-text">Boxer, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal6">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 7 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e" class="card-img-top" alt="Daisy">
+                            <div class="card-body">
+                                <h5 class="card-title">Daisy</h5>
+                                <p class="card-text">Dachshund, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal7">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 8 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e" class="card-img-top" alt="Cooper">
+                            <div class="card-body">
+                                <h5 class="card-title">Cooper</h5>
+                                <p class="card-text">Siberian Husky, 4 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal8">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 9 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1554692918-08fa0fdc9db3" class="card-img-top" alt="Lucy">
+                            <div class="card-body">
+                                <h5 class="card-title">Lucy</h5>
+                                <p class="card-text">Chihuahua, 5 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal9">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 10 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1551717743-49959800b1f6" class="card-img-top" alt="Bailey">
+                            <div class="card-body">
+                                <h5 class="card-title">Bailey</h5>
+                                <p class="card-text">Labradoodle, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal10">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 11 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1" class="card-img-top" alt="Molly">
+                            <div class="card-body">
+                                <h5 class="card-title">Molly</h5>
+                                <p class="card-text">Bulldog, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal11">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 12 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1553882809-a4f57e59501d" class="card-img-top" alt="Jack">
+                            <div class="card-body">
+                                <h5 class="card-title">Jack</h5>
+                                <p class="card-text">Jack Russell Terrier, 4 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal12">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 13 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b" class="card-img-top" alt="Sadie">
+                            <div class="card-body">
+                                <h5 class="card-title">Sadie</h5>
+                                <p class="card-text">Bernese Mountain Dog, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal13">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 14 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d" class="card-img-top" alt="Duke">
+                            <div class="card-body">
+                                <h5 class="card-title">Duke</h5>
+                                <p class="card-text">Rottweiler, 5 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal14">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 15 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16" class="card-img-top" alt="Zoe">
+                            <div class="card-body">
+                                <h5 class="card-title">Zoe</h5>
+                                <p class="card-text">Cavalier King Charles Spaniel, 1 year old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal15">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 16 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a" class="card-img-top" alt="Oliver">
+                            <div class="card-body">
+                                <h5 class="card-title">Oliver</h5>
+                                <p class="card-text">Shih Tzu, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal16">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 17 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1568572933382-74d440642117" class="card-img-top" alt="Milo">
+                            <div class="card-body">
+                                <h5 class="card-title">Milo</h5>
+                                <p class="card-text">Pug, 4 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal17">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 18 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a" class="card-img-top" alt="Sophie">
+                            <div class="card-body">
+                                <h5 class="card-title">Sophie</h5>
+                                <p class="card-text">Doberman Pinscher, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal18">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 19 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1550953581-a75aa86fec90" class="card-img-top" alt="Toby">
+                            <div class="card-body">
+                                <h5 class="card-title">Toby</h5>
+                                <p class="card-text">Cocker Spaniel, 5 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal19">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 20 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1560743641-3914f2c45636" class="card-img-top" alt="Lola">
+                            <div class="card-body">
+                                <h5 class="card-title">Lola</h5>
+                                <p class="card-text">French Bulldog, 1 year old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal20">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 21 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01" class="card-img-top" alt="Bear">
+                            <div class="card-body">
+                                <h5 class="card-title">Bear</h5>
+                                <p class="card-text">Newfoundland, 4 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal21">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Dog 22 -->
+                     <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1504826260979-242151ee45b7" class="card-img-top" alt="Stella">
+                            <div class="card-body">
+                                <h5 class="card-title">Stella</h5>
+                                <p class="card-text">Australian Shepherd, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal22">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 23 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1534361960057-19889db9621e" class="card-img-top" alt="Rusty">
+                            <div class="card-body">
+                                <h5 class="card-title">Rusty</h5>
+                                <p class="card-text">Irish Setter, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal23">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 24 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a" class="card-img-top" alt="Coco">
+                            <div class="card-body">
+                                <h5 class="card-title">Coco</h5>
+                                <p class="card-text">Pomeranian, 1 year old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal24">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 25 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb" class="card-img-top" alt="Rex">
+                            <div class="card-body">
+                                <h5 class="card-title">Rex</h5>
+                                <p class="card-text">German Shorthaired Pointer, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal25">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 26 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" class="card-img-top" alt="Ginger">
+                            <div class="card-body">
+                                <h5 class="card-title">Ginger</h5>
+                                <p class="card-text">Vizsla, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal26">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 27 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2" class="card-img-top" alt="Bruno">
+                            <div class="card-body">
+                                <h5 class="card-title">Bruno</h5>
+                                <p class="card-text">Mastiff, 4 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal27">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 28 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8" class="card-img-top" alt="Daisy">
+                            <div class="card-body">
+                                <h5 class="card-title">Daisy</h5>
+                                <p class="card-text">Bichon Frise, 3 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal28">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 29 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6" class="card-img-top" alt="Oscar">
+                            <div class="card-body">
+                                <h5 class="card-title">Oscar</h5>
+                                <p class="card-text">Basset Hound, 5 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal29">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dog 30 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1504826260979-242151ee45b7" class="card-img-top" alt="Rosie">
+                            <div class="card-body">
+                                <h5 class="card-title">Rosie</h5>
+                                <p class="card-text">Border Collie, 2 years old</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#dogModal30">More Info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Paws & Claws. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Dog Information Modals -->
+    <!-- Modal for Dog 1 -->
+    <div class="modal fade" id="dogModal1" tabindex="-1" role="dialog" aria-labelledby="dogModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dogModal1Label">Buddy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Age:</strong> 3 years</p>
+                    <p><strong>Breed:</strong> Labrador Retriever</p>
+                    <p><strong>Vaccination:</strong> Up to date</p>
+                    <p><strong>How Buddy got to us:</strong> Buddy was found as a stray and brought to our sanctuary by a kind stranger.</p>
+                    <p><strong>Personality:</strong> Buddy is a friendly and energetic dog who loves to play fetch and go for long walks.</p>
+                    <p><strong>Likes:</strong> Swimming, playing with toys, and cuddling on the couch.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Dog 2 -->
+    <div class="modal fade" id="dogModal2" tabindex="-1" role="dialog" aria-labelledby="dogModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dogModal2Label">Luna</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Age:</strong> 2 years</p>
+                    <p><strong>Breed:</strong> German Shepherd</p>
+                    <p><strong>Vaccination:</strong> Up to date</p>
+                    <p><strong>How Luna got to us:</strong> Luna's previous owner had to relocate and couldn't take her along.</p>
+                    <p><strong>Personality:</strong> Luna is intelligent, loyal, and protective. She's great with children and other dogs.</p>
+                    <p><strong>Likes:</strong> Training sessions, playing frisbee, and going for runs.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- Modal for Dog 2 -->
+ <div class="modal fade" id="dogModal2" tabindex="-1" role="dialog" aria-labelledby="dogModal2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal2Label">Luna</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 2 years</p>
+                <p><strong>Breed:</strong> German Shepherd</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Luna got to us:</strong> Luna's previous owner had to relocate and couldn't take her along.</p>
+                <p><strong>Personality:</strong> Luna is intelligent, loyal, and protective. She's great with children and other dogs.</p>
+                <p><strong>Likes:</strong> Training sessions, playing frisbee, and going for runs.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 3 -->
+<div class="modal fade" id="dogModal3" tabindex="-1" role="dialog" aria-labelledby="dogModal3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal3Label">Max</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 5 years</p>
+                <p><strong>Breed:</strong> Golden Retriever</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Max got to us:</strong> Max's family could no longer care for him due to health issues.</p>
+                <p><strong>Personality:</strong> Max is gentle, patient, and great with kids. He's a perfect family dog.</p>
+                <p><strong>Likes:</strong> Belly rubs, playing fetch, and lounging in the sun.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 4 -->
+<div class="modal fade" id="dogModal4" tabindex="-1" role="dialog" aria-labelledby="dogModal4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal4Label">Bella</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 1 year</p>
+                <p><strong>Breed:</strong> Beagle</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Bella got to us:</strong> Bella was rescued from an overcrowded shelter.</p>
+                <p><strong>Personality:</strong> Bella is curious, playful, and loves to explore. She has a lot of energy.</p>
+                <p><strong>Likes:</strong> Sniffing around, chasing toys, and cuddling.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 5 -->
+<div class="modal fade" id="dogModal5" tabindex="-1" role="dialog" aria-labelledby="dogModal5Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal5Label">Charlie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 4 years</p>
+                <p><strong>Breed:</strong> Poodle</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Charlie got to us:</strong> Charlie was surrendered by his previous owner who could no longer care for him.</p>
+                <p><strong>Personality:</strong> Charlie is intelligent, affectionate, and easy to train. He's great with other pets.</p>
+                <p><strong>Likes:</strong> Learning new tricks, going for walks, and getting groomed.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 6 -->
+<div class="modal fade" id="dogModal6" tabindex="-1" role="dialog" aria-labelledby="dogModal6Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal6Label">Rocky</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 3 years</p>
+                <p><strong>Breed:</strong> Boxer</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Rocky got to us:</strong> Rocky was surrendered by his previous owner due to lifestyle changes.</p>
+                <p><strong>Personality:</strong> Rocky is playful, energetic, and loves people. He's great with kids and other dogs.</p>
+                <p><strong>Likes:</strong> Playing with toys, going for runs, and cuddling.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 7 -->
+<div class="modal fade" id="dogModal7" tabindex="-1" role="dialog" aria-labelledby="dogModal7Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal7Label">Daisy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 2 years</p>
+                <p><strong>Breed:</strong> Dachshund</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Daisy got to us:</strong> Daisy was rescued from a puppy mill.</p>
+                <p><strong>Personality:</strong> Daisy is sweet, curious, and loves attention. She's good with other small dogs.</p>
+                <p><strong>Likes:</strong> Burrowing in blankets, short walks, and belly rubs.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 8 -->
+<div class="modal fade" id="dogModal8" tabindex="-1" role="dialog" aria-labelledby="dogModal8Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal8Label">Cooper</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 4 years</p>
+                <p><strong>Breed:</strong> Siberian Husky</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Cooper got to us:</strong> Cooper's family moved to a warmer climate and couldn't keep him.</p>
+                <p><strong>Personality:</strong> Cooper is friendly, talkative, and has lots of energy. He needs an active family.</p>
+                <p><strong>Likes:</strong> Running, playing in snow, and howling.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 9 -->
+<div class="modal fade" id="dogModal9" tabindex="-1" role="dialog" aria-labelledby="dogModal9Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal9Label">Lucy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 5 years</p>
+                <p><strong>Breed:</strong> Chihuahua</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Lucy got to us:</strong> Lucy was found as a stray and brought to our shelter.</p>
+                <p><strong>Personality:</strong> Lucy is feisty, loyal, and loves to be the center of attention.</p>
+                <p><strong>Likes:</strong> Sitting on laps, sunbathing, and playing with small toys.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 10 -->
+<div class="modal fade" id="dogModal10" tabindex="-1" role="dialog" aria-labelledby="dogModal10Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal10Label">Bailey</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 2 years</p>
+                <p><strong>Breed:</strong> Labradoodle</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Bailey got to us:</strong> Bailey's family could no longer afford to care for her.</p>
+                <p><strong>Personality:</strong> Bailey is friendly, intelligent, and great with kids. She's also hypoallergenic.</p>
+                <p><strong>Likes:</strong> Swimming, fetching balls, and learning new tricks.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 11 -->
+<div class="modal fade" id="dogModal11" tabindex="-1" role="dialog" aria-labelledby="dogModal11Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal11Label">Molly</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 3 years</p>
+                <p><strong>Breed:</strong> Bulldog</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Molly got to us:</strong> Molly was surrendered due to her owner's allergies.</p>
+                <p><strong>Personality:</strong> Molly is gentle, affectionate, and loves to lounge around.</p>
+                <p><strong>Likes:</strong> Short walks, belly rubs, and chewing on toys.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 12 -->
+<div class="modal fade" id="dogModal12" tabindex="-1" role="dialog" aria-labelledby="dogModal12Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal12Label">Jack</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 4 years</p>
+                <p><strong>Breed:</strong> Jack Russell Terrier</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Jack got to us:</strong> Jack was rescued from an overcrowded shelter.</p>
+                <p><strong>Personality:</strong> Jack is energetic, intelligent, and always ready for adventure.</p>
+                <p><strong>Likes:</strong> Agility training, digging, and playing fetch.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 13 -->
+<div class="modal fade" id="dogModal13" tabindex="-1" role="dialog" aria-labelledby="dogModal13Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal13Label">Sadie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 2 years</p>
+                <p><strong>Breed:</strong> Bernese Mountain Dog</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Sadie got to us:</strong> Sadie's family moved to an apartment that doesn't allow large dogs.</p>
+                <p><strong>Personality:</strong> Sadie is gentle, patient, and great with children.</p>
+                <p><strong>Likes:</strong> Carrying around stuffed toys, going for walks, and cuddling.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 14 -->
+<div class="modal fade" id="dogModal14" tabindex="-1" role="dialog" aria-labelledby="dogModal14Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal14Label">Duke</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 5 years</p>
+                <p><strong>Breed:</strong> Rottweiler</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Duke got to us:</strong> Duke was found as a stray and brought to our shelter.</p>
+                <p><strong>Personality:</strong> Duke is loyal, protective, and calm. He needs an experienced owner.</p>
+                <p><strong>Likes:</strong> Going for jogs, playing tug-of-war, and lounging in the yard.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 15 -->
+<div class="modal fade" id="dogModal15" tabindex="-1" role="dialog" aria-labelledby="dogModal15Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal15Label">Zoe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 1 year</p>
+                <p><strong>Breed:</strong> Cavalier King Charles Spaniel</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Zoe got to us:</strong> Zoe was surrendered by a breeder who could no longer care for her.</p>
+                <p><strong>Personality:</strong> Zoe is sweet, affectionate, and loves to be around people.</p>
+                <p><strong>Likes:</strong> Sitting on laps, playing with soft toys, and going for car rides.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 16 -->
+<div class="modal fade" id="dogModal16" tabindex="-1" role="dialog" aria-labelledby="dogModal16Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal16Label">Oliver</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 3 years</p>
+                <p><strong>Breed:</strong> Shih Tzu</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Oliver got to us:</strong> Oliver's owner passed away and the family couldn't keep him.</p>
+                <p><strong>Personality:</strong> Oliver is friendly, outgoing, and loves attention.</p>
+                <p><strong>Likes:</strong> Being groomed, playing with squeaky toys, and cuddling.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 17 -->
+<div class="modal fade" id="dogModal17" tabindex="-1" role="dialog" aria-labelledby="dogModal17Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal17Label">Milo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 4 years</p>
+                <p><strong>Breed:</strong> Pug</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Milo got to us:</strong> Milo was surrendered due to his owner's financial difficulties.</p>
+                <p><strong>Personality:</strong> Milo is playful, charming, and loves to be the center of attention.</p>
+                <p><strong>Likes:</strong> Napping in sunny spots, following his humans around, and eating treats.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 18 -->
+<div class="modal fade" id="dogModal18" tabindex="-1" role="dialog" aria-labelledby="dogModal18Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal18Label">Sophie</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 2 years</p>
+                <p><strong>Breed:</strong> Doberman Pinscher</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Sophie got to us:</strong> Sophie was rescued from a neglectful situation.</p>
+                <p><strong>Personality:</strong> Sophie is loyal, intelligent, and eager to please. She needs an experienced owner.</p>
+                <p><strong>Likes:</strong> Obedience training, playing fetch, and going for long runs.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 19 -->
+<div class="modal fade" id="dogModal19" tabindex="-1" role="dialog" aria-labelledby="dogModal19Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal19Label">Toby</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 5 years</p>
+                <p><strong>Breed:</strong> Cocker Spaniel</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Toby got to us:</strong> Toby's family moved overseas and couldn't take him along.</p>
+                <p><strong>Personality:</strong> Toby is gentle, affectionate, and good with children.</p>
+                <p><strong>Likes:</strong> Going for walks, playing with plush toys, and getting ear scratches.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 20 -->
+<div class="modal fade" id="dogModal20" tabindex="-1" role="dialog" aria-labelledby="dogModal20Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal20Label">Lola</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 1 year</p>
+                <p><strong>Breed:</strong> French Bulldog</p>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Lola got to us:</strong> Lola was surrendered by a breeder who could no longer care for her.</p>
+                <p><strong>Personality:</strong> Lola is playful, curious, and loves to be the center of attention.</p>
+                <p><strong>Likes:</strong> Playing with balls, snuggling under blankets, and meeting new people.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Dog 21 -->
+ <div class="modal fade" id="dogModal21" tabindex="-1" role="dialog" aria-labelledby="dogModal21Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="dogModal21Label">Bear</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Age:</strong> 4 years</p>
+                <p><strong>Breed:</strong> Newfoundland</p>
+                <p><strong>
+                <p><strong>Vaccination:</strong> Up to date</p>
+                <p><strong>How Bear got to us:</strong> Bear's family could no longer afford to care for such a large dog.</p>
+                <p><strong>Personality:</strong> Bear is gentle, patient, and great with children. He's a true gentle giant.</p>
+                <p><strong>Likes:</strong> Swimming, carrying around stuffed toys, and lounging in cool spots.</p>
+           </div>
+           <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           </div>
+      </div>
+   </div>
+</div>
+
+<!-- Modal for Dog 22 -->
+<div class="modal fade" id="dogModal22" tabindex="-1" role="dialog" aria-labelledby="dogModal22Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal22Label">Stella</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 3 years</p>
+<p><strong>Breed:</strong> Australian Shepherd</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Stella got to us:</strong> Stella was found as a stray and brought to our shelter.</p>
+<p><strong>Personality:</strong> Stella is intelligent, energetic, and loves to have a job to do.</p>
+<p><strong>Likes:</strong> Herding balls, agility training, and learning new tricks.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 23 -->
+<div class="modal fade" id="dogModal23" tabindex="-1" role="dialog" aria-labelledby="dogModal23Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal23Label">Rusty</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 2 years</p>
+<p><strong>Breed:</strong> Irish Setter</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Rusty got to us:</strong> Rusty's owner moved to a place that doesn't allow pets.</p>
+<p><strong>Personality:</strong> Rusty is friendly, outgoing, and has a lot of energy. He loves everyone he meets.</p>
+<p><strong>Likes:</strong> Running in open spaces, playing fetch, and getting belly rubs.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 24 -->
+<div class="modal fade" id="dogModal24" tabindex="-1" role="dialog" aria-labelledby="dogModal24Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal24Label">Coco</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 1 year</p>
+<p><strong>Breed:</strong> Pomeranian</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Coco got to us:</strong> Coco was surrendered by a family who underestimated the care needed for a small dog.</p>
+<p><strong>Personality:</strong> Coco is lively, confident, and loves to be the center of attention.</p>
+<p><strong>Likes:</strong> Being carried around, playing with small toys, and barking at squirrels.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 25 -->
+<div class="modal fade" id="dogModal25" tabindex="-1" role="dialog" aria-labelledby="dogModal25Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal25Label">Rex</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 3 years</p>
+<p><strong>Breed:</strong> German Shorthaired Pointer</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Rex got to us:</strong> Rex was rescued from a hunting kennel that was shut down.</p>
+<p><strong>Personality:</strong> Rex is athletic, intelligent, and has a strong prey drive. He needs an active family.</p>
+<p><strong>Likes:</strong> Retrieving, swimming, and going on long hikes.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 26 -->
+<div class="modal fade" id="dogModal26" tabindex="-1" role="dialog" aria-labelledby="dogModal26Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal26Label">Ginger</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 2 years</p>
+<p><strong>Breed:</strong> Vizsla</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Ginger got to us:</strong> Ginger's family had to relocate overseas and couldn't take her.</p>
+<p><strong>Personality:</strong> Ginger is affectionate, energetic, and loves to be close to her humans.</p>
+<p><strong>Likes:</strong> Jogging with her humans, playing fetch, and cuddling on the couch.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 27 -->
+<div class="modal fade" id="dogModal27" tabindex="-1" role="dialog" aria-labelledby="dogModal27Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal27Label">Bruno</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 4 years</p>
+<p><strong>Breed:</strong> Mastiff</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Bruno got to us:</strong> Bruno's owner passed away and the family couldn't keep him.</p>
+<p><strong>Personality:</strong> Bruno is gentle, calm, and loyal. He's great with kids but needs space due to his size.</p>
+<p><strong>Likes:</strong> Short walks, lounging in the yard, and getting head scratches.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 28 -->
+<div class="modal fade" id="dogModal28" tabindex="-1" role="dialog" aria-labelledby="dogModal28Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal28Label">Daisy</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 3 years</p>
+<p><strong>Breed:</strong> Bichon Frise</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Daisy got to us:</strong> Daisy was rescued from a puppy mill situation.</p>
+<p><strong>Personality:</strong> Daisy is cheerful, playful, and loves attention. She's good with other small dogs.</p>
+<p><strong>Likes:</strong> Playing with soft toys, going for walks, and sitting on laps.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal for Dog 29 -->
+<div class="modal fade" id="dogModal29" tabindex="-1" role="dialog" aria-labelledby="dogModal29Label" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="dogModal29Label">Oscar</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<p><strong>Age:</strong> 5 years</p>
+<p><strong>Breed:</strong> Basset Hound</p>
+<p><strong>Vaccination:</strong> Up to date</p>
+<p><strong>How Oscar got to us:</strong> Oscar was found as a stray and brought to our shelter.</p>
+<p><strong>Personality:</strong> Oscar is laid-back, friendly, and has a great sense of smell. He's good with other dogs.</p>
+<p><strong>Likes:</strong> Following scent trails, napping in the sun, and getting ear rubs.</p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal for Dog 30 -->
+    <div class="modal fade" id="dogModal30" tabindex="-1" role="dialog" aria-labelledby="dogModal30Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dogModal30Label">Rosie</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Age:</strong> 2 years</p>
+                    <p><strong>Breed:</strong> Border Collie</p>
+                    <p><strong>Vaccination:</strong> Up to date</p>
+                    <p><strong>How Rosie got to us:</strong> Rosie was found wandering on a farm and brought to our shelter.</p>
+                    <p><strong>Personality:</strong> Rosie is highly intelligent, energetic, and loves to work. She needs an active family.</p>
+                    <p><strong>Likes:</strong> Herding, agility training, and solving puzzle toys.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
